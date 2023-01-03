@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEVED</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="px-5-percent justify-between align-items-end">
+        <div class="white-border-bottom pb-50">
+            <a href="#">
+                <img src="./images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="plus-block">
+            <img src="./images/svg/plus.svg" alt="plus icon">
+        </div>
+        <div class="white-border-bottom pb-50">
+            <ul class="menu">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="plus-block">
+            <img src="./images/svg/plus.svg" alt="plus icon">
+        </div>
+        <div class="white-border-bottom pb-50">
+            <button class="white-border-btn">
+                <a href="#">Explore villas</a>
+            </button>
+        </div>
+    </header>
+    <section id="slider">
+        <div class="carousel">
+            <div class="slides">
+                <img src="./images/banner.jpg" alt="slide image" class="slide">
+                <img src="./images/banner.jpg" alt="slide image" class="slide">
+                <img src="./images/banner.jpg" alt="slide image" class="slide">
+            </div>
+            <div class="banner-black-layer"></div>
+        </div>
+        <div class="slide-layer">
+            <div class="for-banner">
+                <img src="./images/banner-design.png" alt="for banners">
+            </div>
+            <div class="black-layer"></div>
+            <div>
+                <div class="slider-content">
+                    <h1 class="description">4 Bedroom Luxury villa
+                        in Agios Tychonas
+                        Limassol, Cyprus</h1>
+                    <div class="w-135 mt-89">
+                        <div id="slide-range"></div>
+                        <div class="justify-between mt-20 align-items-center">
+                            <p id="slide-id"></p>
+                            <div class="controls d-flex">
+                                <div class="control prev-slide cursor-pointer">
+                                    <img src="./images/svg/arrow-left.svg" alt="arrow left">
+                                </div>
+                                <div class="control next-slide ml-20 cursor-pointer">
+                                    <img src="./images/svg/arrow-right.svg" alt="arrow right">
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>          
+                </div>
+            </div>
+        </div>
+        <div class="slider-footer px-5-percent justify-between">
+            <img src="./images/svg/plus2.svg" alt="plus icon">
+            <img src="./images/svg/plus.svg" alt="plus icon">
+            <div class="slider-footer-text">
+                SCROLL TO SEE MORE
+            </div>
+            <img src="./images/svg/plus.svg" alt="plus icon">
+            <img src="./images/svg/plus3.svg" alt="plus icon">
+        </div>
+    </section>
+    <div class="h-100vh"></div>
+    <section id="our-villas">
+        <div class="line"></div>
+        <p class="title">Explore our Villas</p>
+        <div class="our-villas-content">
+            <div class="d-flex align-items-end">
+                <div class="d-flex mr-50 w-614">
+                    <h2 class="our-villas-heading">Our Villas</h2>
+                    <div class="our-villas-line"></div>
+                </div>
+                <p class="our-villas-text w-614">Exclusive, modern and luxury villas located in one of the most prestigious areas of Limassol.</p>
+            </div>
+            <div class="d-flex mt-64">
+                <div class="w-614 justify-between mr-50" id="tabs">
+                    <button class="black-border-btn active" id="all">ALL</button>
+                    <button class="black-border-btn" id="sold">SOLD</button>
+                    <button class="black-border-btn" id="forSale">FOR SALE</button>
+                </div>
+                <p class="our-villas-text w-614">We value quality over quantity – which is why every single project is unique and focuses on the customer expectations.</p>
+            </div>
+            <div id="tabContent">
+                <div class="mt-80 all-tabContent tabContent-block active">
+                    <div class="product-carousel">
+                        <div class="product-slides">
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="control product-next-slide cursor-pointer">
+                                NEXT
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-carousel">
+                        <div class="product-slides">
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-slide">
+                                <img src="./images/banner.jpg" alt="slide image">
+                                <div class="product-slide-info justify-between align-items-center">
+                                    <div class="ml-50">
+                                        <h6 class="product-slide-title">Villa Sunrise</h6>
+                                        <p class="d-flex align-items-center location-of-villa">
+                                            <span><img src="./images/svg/location.svg" alt="location"></span>
+                                            <span class="location">Agios Tychonas, Limassol, Cyprus</span>
+                                        </p>
+                                        <button class="l-black-border-btn">
+                                            <a href="#">EXPLORE VILLA</a>
+                                        </button>
+                                    </div>
+                                    <div class="mr-50">
+                                        <div class="d-flex align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/house.svg" alt="icon">
+                                                <p class="product-slide-content">390 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-25 align-items-baseline">
+                                            <div class="flex-column d-flex align-items-center mr-36">
+                                                <img class="product-slide-icon" src="./images/svg/location-icon.svg" alt="icon">
+                                                <p class="product-slide-content">870 sqm</p>
+                                            </div>
+                                            <div class="flex-column d-flex align-items-center">
+                                                <img class="product-slide-icon" src="./images/svg/bedrooms.svg" alt="icon">
+                                                <p class="product-slide-content">5 bedrooms</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="control product-next-slide cursor-pointer">
+                                NEXT
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="justify-center">
+                        <button class="xl-black-border-btn"><a href="#">Explore ALL villas</a></button>
+                    </div>
+                </div>
+                <div class="mt-80 sold-tabContent tabContent-block"></div>
+                <div class="mt-80 forSale-tabContent tabContent-block"></div>
+            </div>
+        </div>
+    </section>
+    <div class="justify-center divider">
+        <img src="./images/page-decoration.png" alt="decoration">
+    </div>
+    <section id="about" class="d-flex align-items-center">
+        <div class="mr-139 w-50-percent">
+            <h2 class="about-heading">About Us</h2>
+            <p class="about-content">For over a decade Jeved Group has been providing the ultimate service in luxury real estate and development in one of the most prestigious areas of Limassol.</p>
+        </div>
+        <div>
+            <p class="about-text"> We aim to cater to each of our clients needs and desires. We want to make sure your journey to your dream home will be trouble free – whether you want to be involved in the construction process or simply add final touches to the design elements of your new home. </p>
+            <p class="about-text">If you are looking at purchasing a villa as an investment opportunity our team of legal specialists will also help to guide you through all the processes through start to end in order to guarantee the return on your investment.</p>
+            <p class="about-text">We will assist you during the entire process – as we guarantee quality over quantity each step of the way to purchasing your dream villa in Cyprus.</p>
+        </div>
+    </section>
+    <script src="./js/slider.js"></script>
+    <script src="./js/product-slide.js"></script>
+    <script src="./js/tab.js"></script>
+</body>
+</html>
